@@ -9,7 +9,7 @@ const TAGLINES = [
 
 const TRACKS = [
   {
-    url: "https://r2.guns.lol/41a82ace-adba-44cb-8b54-16234df6f2ef.mp3",
+    url: "./images/liljeep.mp3",
     title: "HPC 24/7 fam no cap",
     cover: "https://r2.guns.lol/031380a8-e1c8-49ae-980e-5d1dad1dac39.webp"
   },
