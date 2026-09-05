@@ -290,6 +290,27 @@ html, body {
   color: var(--text-color);
 }
 
+.terminal-snippet {
+  margin: 0;
+  text-align: left;
+  font-family: 'Courier New', ui-monospace, monospace;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #d0d0d0;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px 12px;
+  white-space: pre;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.term-prompt {
+  color: #4ade80;
+  font-weight: 600;
+}
+
 .socials {
   display: flex;
   flex-wrap: wrap;
@@ -316,9 +337,11 @@ html, body {
   background: rgba(255, 255, 255, 0.14);
 }
 
-.social-icon img {
+.social-icon img,
+.social-icon svg {
   width: 20px;
   height: 20px;
+  color: #ffffff;
 }
 
 /* audio player */

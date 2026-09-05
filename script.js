@@ -92,7 +92,7 @@ function typewriterOnce(el, text, { typeSpeed = 55, deleteSpeed = 30, hold = 160
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  typewriter(document.getElementById("typewriterName"), USERNAME, { hold: 999999 });
+  typewriter(document.getElementById("typewriterName"), USERNAME, { typeSpeed: 140, hold: 999999 });
   cycleTypewriter(document.getElementById("typewriterTagline"), TAGLINES);
 
   setupAudioPlayer();
